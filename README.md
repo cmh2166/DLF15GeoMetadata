@@ -1,13 +1,12 @@
 # Increasing Geospatial Awareness: Storing, Managing, Describing & Sharing Geospatial Data
-## Enhancing Metadata with Geospatial Data Portion
-## DLF Forum 2015
-
-## Schedule
-_Total Time: 3 hrs w/ 15 min break (12:30 - 3:45)_
+### Enhancing Metadata with Geospatial Data Portion
+### DLF Forum 2015
 
 ## Abstract
 This workshop is a joint effort to introduce working with geospatial data and geospatial metadata from a variety of contexts. As such, it will be a mix of talking and tinkering, with audience questions and interaction encouraged. We will start with an introduction to geospatial data types  and metadata standards as well as demonstrations of two data sharing services: the California Digital Library's Dash, which allows for geospatial metadata input and discovery for any data type, and Stanford University Libraries' EarthWorks, which focuses exclusively on geospatial datasets. Next will be a demonstration of how content-management systems like Omeka can be leveraged to assist in the submission of GIS data and the creation of geospatial metadata, as well as an introduction to GeoBlacklight geospatial data indexing software. Looking beyond platforms, there will be some hands-on training on how to manage metadata for the preservation and end-user discovery of several digital geospatial data types including vector and raster data, feature catalogs, georeferenced historic maps, and scholarly research data. Finally, there will be a walkthrough and discussion of how to use geographic information to improve discoverability of a wide range of non-geospatial digital library objects, as well as ensure metadata interoperability with geospatial dataset metadata.
 
+## Schedule
+_Total Time: 3 hrs w/ 15 min break (12:30 - 3:45)_
 
 ## Agenda
 ### **12:30 - 1:15:** Presentation: Geospatial data preservation and discovery
