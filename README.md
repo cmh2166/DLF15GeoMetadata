@@ -10,7 +10,7 @@ This workshop is a joint effort to introduce working with geospatial data and ge
 _Total Time: 3 hrs w/ 15 min break (12:30 - 3:45)_
 
 ### **12:30 - 1:15:** Presentation: Geospatial data preservation and discovery
-_Jack Reed (Stanford), Matthew McKinley (California Digital Library)
+_Jack Reed (Stanford), Matthew McKinley (California Digital Library)_
 
 1. Types and sources of geospatial data
 2. Metadata standards
