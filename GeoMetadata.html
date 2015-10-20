@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="OpenRefine, LODRefine, linked open data, reconciliation, metadata" />
+    <meta name="description" content="Cleaning and publishing metadata: hands on tutorial with OpenRefine" />
+    <title>Enhancing descriptive metadata with geospatial properties</title>
+    <script src="./js/remark-0.6.0.min.js" type="text/javascript"></script>
+    <style type="text/css">
+      @font-face {
+        font-family: 'Cutive Mono';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Cutive Mono'), url(./fonts/Cutive_Mono.woff2) format('woff2');
+      }
+      @font-face {
+        font-family: 'Yanone Kaffeesatz';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Yanone Kaffeesatz'), url(./fonts/Yanone_Kaffeesatz.woff) format('woff');
+      }
+      body {
+        font-family: 'Cutive Mono';
+        font-size: 30px;
+        color: #2F302D;
+      }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: 400;
+        margin-bottom: 0;
+      }
+      h1 { font-size: 3.5em; color: #193466; }
+      h2 { font-size: 2.5em; color: #193466; }
+      h3 { font-size: 1.75em; color: #193466; }
+      small { font-size: 0.5em; }
+      .footnote {
+        position: absolute;
+        bottom: 3em;
+      }
+      li p { line-height: 1.25em; }
+      .red { color: #fa0000; }
+      .large { font-size: 2em; }
+      a, a > code {
+        color: #4183c4;
+        text-decoration: none;
+      }
+      img {
+      max-width: 800px;
+      max-height: 600px;
+      }
+      code {
+        -moz-border-radius: 5px;
+        -web-border-radius: 5px;
+        background: #e7e8e2;
+        border-radius: 5px;
+        font-size: 16px;
+      }
+      .pull-left {
+        float: left;
+        width: 47%;
+      }
+      .pull-right {
+        float: right;
+        width: 47%;
+      }
+      .pull-right ~ p {
+        clear: both;
+      }
+      #slideshow .slide .content code {
+        font-size: 0.8em;
+      }
+      #slideshow .slide .content pre code {
+        font-size: 0.9em;
+        padding: 15px;
+      }
+      .inverse {
+        background: #272822;
+        color: #777872;
+        /*text-shadow: 0 0 20px #333;*/
+      }
+      .inverse h1, .inverse h2 {
+        color: #f3f3f3;
+        line-height: 0.8em;
+      }
+
+      /* Slide-specific styling */
+      #slide-inverse .footnote {
+        bottom: 12px;
+        left: 20px;
+      }
+      #slide-how .slides {
+        font-size: 0.9em;
+        position: absolute;
+        top:  151px;
+        right: 140px;
+      }
+      #slide-how .slides h3 {
+        margin-top: 0.2em;
+      }
+      #slide-how .slides .first, #slide-how .slides .second {
+        padding: 1px 20px;
+        height: 90px;
+        width: 120px;
+        -moz-box-shadow: 0 0 10px #777;
+        -webkit-box-shadow: 0 0 10px #777;
+        box-shadow: 0 0 10px #777;
+      }
+      #slide-how .slides .first {
+        background: #fff;
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        z-index: 1;
+      }
+      #slide-how .slides .second {
+        position: relative;
+        background: #fff;
+        z-index: 0;
+      }
+
+      /* Two-column layout */
+      .left-column {
+        color: #777;
+        width: 20%;
+        height: 92%;
+        float: left;
+      }
+        .left-column h2:last-of-type, .left-column h3:last-child {
+          color: #000;
+        }
+      .right-column {
+        width: 75%;
+        float: right;
+        padding-top: 2em;
+      }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+class: center middle
+## Enhancing descriptive metadata with geospatial properties
+
+Christina Harlow, @cm_harlow
+
+Increasing Geospatial Awareness Workshop
+
+DLF Forum 2015
+
+---
+class: center middle
+## Slides, Examples, &amp; Other docs
+
+github.com/cmh2166/DLF15GeoMetadata
+
+---
+class: middle
+## Agenda/Method
+
+1. Introduction
+2. Existing Best Practices
+3. Standards &amp; Vocabularies
+4. Tools &amp; Scripts
+
+---
+class: middle
+## Introduction &amp; Scope Shift
+
+**Goal for Today**:
+
+1. Take awesome work for geospatial data
+2. Leverage in descriptive metadata for non-geospatial datasets
+3. See how it will changes our work
+
+---
+class: center middle
+## Introduction &amp; Scope Shift
+
+Goal for this Work:
+
+Offer new methods - or more consistent ways to apply existing methods - for geographic discovery and identification of all resources in discovery layer.
+
+---
+class: middle
+## Workshop?
+
+- Follow along
+- Tinker with examples
+- Can play with tools at end
+- Discuss, build interoperable best practices across models, schema
+- Please interrupt with questions, additions, corrections
+
+---
+class: middle
+## Best Practices: MWDL
+
+  * http://bit.ly/MWDLgeo
+  * Revises MWDL Dublin Core Application Profile (focused on DC in XML)
+
+---
+class: middle
+## Best Practices: MWDL cont.
+
+* Geonames preferred geographic terms authority
+* Preferred Geometadata pattern:
+
+place name hierarchy, URI, Latitude, Longitude ; [repeat]
+
+* Coordinates: decimal degrees, no directional letters
+* Put above in dcterms:spatial or field that maps to that in MWDL
+* Additional Geometadata place in unmapped fields
+
+---
+class: middle
+## Existing Best Practices: MWDL cont.
+
+* Looking into developing gazetter for local/regional names not in GeoNames
+* Reviewing other/better ways of handling point/box coordinates in DC
+* Some work with OpenRefine reconciliation options
+
+---
+class: middle
+## Existing Best Practices: MWDL Example
+
+![MWDL Geometadata Example](img/ "MWDL Geometadata Example")
+
+---
+class: middle
+## Existing Best Practices: MODS
+
+* Options that currently exist
+* originInfo/place/placeTerm
+* subject/geographic/*
+* subject/hierarchicalGeographic/*
+* subject/cartographics/*
+
+---
+class: middle
+## Existing Best Practices: MODS:placeTerm
+
+* originInfo/place/placeTerm
+  * Heavily MARC related
+  * Only validates with ISO3166 or MARC Country Codes as authority (can use whatever valueURI though)
+
+---
+class: middle
+## Existing Best Practices: MODS:Geographic
+
+* subject/geographic/* versus subject/hierarchicalGeographic
+* Capture any authority at subject level
+* Standard: LC or TGN, but growing preference for Geonames...?
+* Doesn't capture geographic aspects of complex subject strings
+* Can couple with MODS:cartographics
+
+---
+class: middle
+## Existing Best Practices: MODS:hierarchicalGeographic
+
+* No DLF guidelines as with other elements - perhaps add GeoBlacklight inspired guidelines?
+
+---
+class: middle
+## Existing Best Practices: MODS:cartographic
+
+* No DLF guidelines as with other elements - perhaps add GeoBlacklight inspired guidelines?
+* Can be extended with non-MODS elements
+
+---
+class: middle
+## Existing Best Practices: MODS:geographicCode
+
+* Like MODS:placeTerm, focused on country
+* Redundant possibly with use of valueURIs
+
+---
+class: middle
+## Existing Best Practices: What I do
+
+* Couple MODS:Geographic &amp; MODS:Cartographics
+* MODS:Geographic has valueURI &amp; value from from LoC where existing, LoC-like form &amp; Geonames valueURI otherwise
+* MODS:Cartographic taken from Geonames, decimal form without
+* MODS: Hierarchical avoided at present unless legacy data (addresses), being reviewed
+* MODS:geographicCode not used
+
+---
+class: middle
+## Existing Best Practices: MODS w/GeoBlacklight
+
+* Extends MODS with Geo/GML RDF properties
+* Uses dcterms within extension for dataset properties
+* geo:boundedBy, dc:coverage for hierarchy, geo:envelope = all could be represented in MODS elements except last, but this seems better
+
+---
+class: middle
+## Existing Best Practices: Europeana
+
+  *
+
+---
+class: middle
+## Existing Best Practices: DPLA MAP v.4
+
+  *
+
+---
+class: center middle
+## Standards &amp; Vocabularies:
+
+*ISO3166*
+
+Country codes. Really, that's it. Very MARC-centric
+
+---
+class: center middle
+## Standards &amp; Vocabularies:
+
+*DCMI Point, Box Datatypes*
+
+Could be used in RDF-situations to further refine objects of dcterms:spatial predicates
+
+---
+class: center middle
+## Standards &amp; Vocabularies:
+
+*Geonames*
+
+Becoming the favorite at present.
+
+---
+class: center middle
+## Standards &amp; Vocabularies:
+
+*id.loc.gov*
+
+![](img/haphazardLCcoords.png)
+
+---
+class: center middle
+## Standards &amp; Vocabularies:
+
+*German National Library*
+
+![](img/localDNFcoords.png)
+
+---
+class: middle
+## Tools &amp; Scripts: OpenRefine
+
+OpenRefine Geonames Reconciliation Service
+
+Extended with LCparse, Stanford local Gazetteer for better id.loc.gov <=> Geonames matchines
+
+---
+class: middle
+## Tools &amp; Scripts: OpenRefine
+
+Geonames Recon Service Run-through
+
+---
+class: middle
+## Tools &amp; Scripts: OpenRefine
+
+Geonames Recon Work by MWDL
+
+---
+class: middle
+## Tools &amp; Scripts: Catmandu
+
+- getJson module with GeoNames API
+- LDF/Aggregated RDF Reconciliation
+  - DBpedia
+  - id.loc.gov
+  - TGN
+
+---
+class: middle
+## Tools &amp; Scripts: Catmandu
+
+Sample script run through
+
+---
+class: middle center
+## Links + Contact
+
+https://github.com/cmh2166/DLF15GeoMetadata
+
+@cm_harlow, cmharlow@gmail.com
+
+---
+class: middle
+
+
+    </textarea>
+    <div id="slideshow"></div>
+    <script type="text/javascript">
+        var slideshow = remark.create({
+            highlightLanguage: 'no-highlight',
+            highlightStyle: 'zenburn',
+        });
+    </script>
+  </body>
+</html>

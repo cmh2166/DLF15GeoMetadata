@@ -1,5 +1,6 @@
 # Increasing Geospatial Awareness: Storing, Managing, Describing & Sharing Geospatial Data
-**Enhancing Metadata with Geospatial Data Portion**
+
+**This Repository just covers the 'Enhancing Metadata with Geospatial Data' workshop portion**
 
 **DLF Forum 2015**
 
@@ -53,19 +54,23 @@ _Christina Harlow (UT Knoxville)_
 
 1. Purposes for this portion/intro to scope shift
     - Getting items in previously discussed platforms discoverable in primary discovery interfaces/aggregated search options
-2. Existing best practices for adding
+2. Existing best practices for adding Geospatial attributes
     - For DC - Mountain West Digital Draft
     - For MODS - UTK / Columbia work
     - For RDF Modeled Data - DPLA/Europeana (+ their divergences)
-3. Standards + Vocabularies/Question of Authorities
-    - ISO
-    - Geonames
-    - Getty Thesaurus of Geographic Names
-    - LCNAF/LCSH + PCC Phase 3 project to possibly add more identifiers, coordinates
-4. Tools for metadata munging w/eye to enhancing with geographic properties
-    - Geonames API
-    - OpenRefine RDF/SPARQL Recon Services
-    - Catmandu Fix Processes
+3. Standards, Schema, & Vocabularies
+    - [ISO3166](http://www.iso.org/iso/en/prods-services/iso3166ma/02iso-3166-code-lists/list-en1.html)
+    - [DCMI Point, Box Datatypes](http://dublincore.org/documents/dcmi-box/)
+    - [Geonames](http://www.geonames.org/)
+    - [Getty Thesaurus of Geographic Names](http://www.getty.edu/research/tools/vocabularies/tgn/)
+    - [LCNAF/LCSH](http://id.loc.gov/)
+        - PCC Phase 3 project to possibly add more identifiers, coordinates?
+        - Brings up question of Authorities
+        - Issues with LoC handling of geographic descriptors
+4. Tools for metadata munging for enhancing with geographic properties
+    - [Geonames API](http://www.geonames.org/export/web-services.html)
+    - [OpenRefine Recon Services](https://github.com/cmh2166/geonames-reconcile)
+    - Catmandu Fix Processes, Python metadata scripts, other...?
 
 ### **3:30 - 3:45:** Questions for all previous sessions
 
