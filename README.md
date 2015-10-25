@@ -1,8 +1,7 @@
-# Increasing Geospatial Awareness: Storing, Managing, Describing & Sharing Geospatial Data
-
+## Increasing Geospatial Awareness: Storing, Managing, Describing & Sharing Geospatial Data
 ## Enhancing Descriptive Metadata with Geospatial Properties
 
-**This Repository just covers the 'Enhancing Metadata with Geospatial Data' workshop portion: see the link to the full workshop schedule and documentation here: **
+**This Repository just covers the 'Enhancing Metadata with Geospatial Data' workshop portion: see the link to the full workshop schedule and documentation here: http://bit.ly/DLF15geowkshop**
 
 **DLF Forum 2015**
 
