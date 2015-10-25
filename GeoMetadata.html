@@ -601,6 +601,39 @@ class: center middle
 class: center middle
 ## Standards &amp; Vocabularies:
 
+*[Getty TGN](http://www.geonames.org)*
+
+Covers hierarchies; similar term forms to AAT; Available as LOD via SPARQL Endpoint but not API; Gives coordinates with datatypes
+
+---
+class: middle
+## Standards &amp; Vocabularies:
+
+*Getty TGN*
+
+```
+@prefix gvp: <http://vocab.getty.edu/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix tgn: <http://vocab.getty.edu/tgn/> .
+@prefix wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+...
+tgn:7013841 a gvp:Subject , skos:Concept , ... ;
+  rdfs:label "Knoxville" , ... ;
+  ...
+  gvp:broader tgn:2001883 ;
+  ...
+tgn:7013841-place a schema:Place , wgs:SpatialThing ;
+  wgs:lat "35.95"^^xsd:decimal ;
+  wgs:long "-83.9167"^^xsd:decimal ;
+  ...
+  schema:geo tgn:7013841-geometry .
+```
+
+---
+class: center middle
+## Standards &amp; Vocabularies:
+
 *[id.loc.gov](http://id.loc.gov)*
 
 Pulling in geographic information from GeoNames. Captured some coordinates, constantly under review for further linking (base MARC, transformed into SKOS/RDF, MADS/RDF).
