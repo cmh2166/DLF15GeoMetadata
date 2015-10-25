@@ -1,0 +1,121 @@
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:oai="http://www.openarchives.org/OAI/2.0/" version="3.6" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+    <titleInfo>
+        <title>Robert's Grocery</title>
+    </titleInfo>
+    <typeOfResource>still image</typeOfResource>
+    <originInfo>
+        <dateCreated encoding="edtf" keyDate="yes">1916</dateCreated>
+    </originInfo>
+    <language>
+        <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </language>
+    <physicalDescription>
+        <extent>1 digital image; 1 photograph</extent>
+        <form authority="aat" valueURI="http://vocab.getty.edu/aat/300046300">photographs</form>
+        <internetMediaType>image/jp2</internetMediaType>
+        <digitalOrigin>reformatted digital</digitalOrigin>
+    </physicalDescription>
+    <abstract>Interior of Robert's Grocery, ca. 1916.</abstract>
+    <subject authority="lcsh">
+        <topic>Grocery trade--Tennessee</topic>
+    </subject>
+    <subject displayLabel="Broad Topics">
+        <topic>Trade, Business and Industry</topic>
+    </subject>
+    <subject>
+        <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n82063401">Jackson (Tenn.)</geographic>
+        <cartographics>
+            <coordinates>35.61444N, 88.81389W</coordinates>
+        </cartographics>
+    </subject>
+    <subject>
+        <geographic authority="naf"
+            valueURI="http://id.loc.gov/authorities/names/n82063402">
+            Madison County (Tenn.)
+        </geographic>
+        <cartographics>
+            <cartographicExtension displayLabel="geo"
+                xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/"
+                    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                    xmlns:dc="http://purl.org/dc/elements/1.1/">
+                    <rdf:Description rdf:about="objectURI">
+                        <dc:coverage>
+                            <dcterms:Point>
+                                <rdfs:label>Madison County</rdfs:label>
+                                <rdf:value>
+                                    name=Madison County; east=35.60814; north=-88.83847
+                                </rdf:value>
+                            </dcterms:Point>
+                        </dc:coverage>
+                    </rdf:Description>
+                </rdf:RDF>
+            </cartographicExtension>
+        </cartographics>
+    </subject>
+    <subject displayLabel="Tennessee Social Studies K-12 Eras in American History">
+        <temporal>
+            Era 7 - The Emergence of Modern America (1890-1930)
+        </temporal>
+    </subject>
+    <relatedItem displayLabel="Project" type="host">
+        <titleInfo>
+            <title>Volunteer Voices</title>
+        </titleInfo>
+        <location>
+            <url>http://digital.lib.utk.edu/collections/volvoices</url>
+        </location>
+    </relatedItem>
+    <relatedItem displayLabel="Collection" type="host">
+        <titleInfo>
+            <title>Jackson Business History Project Collection</title>
+        </titleInfo>
+    </relatedItem>
+    <identifier type="local">0027_000050_000202_0001</identifier>
+    <identifier type="filename">0027_000050_000202_0001.jp2</identifier>
+    <accessCondition type="use and reproduction">Public domain.</accessCondition>
+    <recordInfo>
+        <recordIdentifier>record_0027_000050_000202_0001</recordIdentifier>
+        <recordContentSource>Memphis Public Library and Information Center</recordContentSource>
+        <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+        </languageOfCataloging>
+        <recordOrigin>
+            Created and edited in general conformance to MODS Guidelines (Version 3.5).
+        </recordOrigin>
+        <recordCreationDate encoding="edtf">2007-02-07</recordCreationDate>
+        <recordChangeDate encoding="edtf">2015-03-23</recordChangeDate>
+        <recordChangeDate encoding="edtf">2015-03-31</recordChangeDate>
+        <recordChangeDate encoding="edtf">2015-04-01</recordChangeDate>
+    </recordInfo>
+    <name>
+        <namePart>Roberts, Mary</namePart>
+        <role>
+            <roleTerm authority="marcrelator" type="text" valueURI="http://id.loc.gov/vocabulary/relators/dnr">Donor</roleTerm>
+        </role>
+    </name>
+    <genre valueURI="http://vocab.getty.edu/aat/300046300" authority="aat">photographs</genre>
+    <location>
+        <physicalLocation>Jackson-Madison County Library</physicalLocation>
+        <holdingSimple>
+            <copyInformation>
+                <shelfLocator>42</shelfLocator>
+            </copyInformation>
+        </holdingSimple>
+        <holdingExternal>
+            <url access="object in context" usage="primary display">
+                http://digital.lib.utk.edu/collections/islandora/object/volvoices%3A2296
+            </url>
+            <url access="preview">
+                http://digital.lib.utk.edu/collections/islandora/object/volvoices%3A2296/datastream/TN/view
+            </url>
+            <holding xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
+                <physicalAddress>
+                    <text>City: Jackson</text>
+                    <text>County: Madison County</text>
+                    <text>State: Tennessee</text>
+                </physicalAddress>
+            </holding>
+        </holdingExternal>
+    </location>
+</mods>

@@ -9,10 +9,10 @@
     <script src="./js/remark-0.6.0.min.js" type="text/javascript"></script>
     <style type="text/css">
       @font-face {
-        font-family: 'Cutive Mono';
+        font-family: 'Droid Serif';
         font-style: normal;
         font-weight: normal;
-        src: local('Cutive Mono'), url(./fonts/Cutive_Mono.woff2) format('woff2');
+        src: local('Droid Serif'), url(./fonts/Droid_Serif.woff) format('woff');
       }
       @font-face {
         font-family: 'Yanone Kaffeesatz';
@@ -21,7 +21,7 @@
         src: local('Yanone Kaffeesatz'), url(./fonts/Yanone_Kaffeesatz.woff) format('woff');
       }
       body {
-        font-family: 'Cutive Mono';
+        font-family: 'Droid Serif';
         font-size: 30px;
         color: #2F302D;
       }
@@ -46,15 +46,15 @@
         text-decoration: none;
       }
       img {
-      max-width: 800px;
-      max-height: 600px;
+      max-width: 700px;
+      max-height: 375px;
       }
       code {
         -moz-border-radius: 5px;
         -web-border-radius: 5px;
         background: #e7e8e2;
         border-radius: 5px;
-        font-size: 16px;
+        font-size: 20px;
       }
       .pull-left {
         float: left;
@@ -141,21 +141,21 @@
 class: center middle
 ## Enhancing descriptive metadata with geospatial properties
 
-Christina Harlow, @cm_harlow
-
-Increasing Geospatial Awareness Workshop
-
+Christina Harlow, @cm_harlow <br/>
+Increasing Geospatial Awareness Workshop <br/>
 DLF Forum 2015
 
 ---
 class: center middle
 ## Slides, Examples, &amp; Other docs
 
-github.com/cmh2166/DLF15GeoMetadata
+[http://bit.ly/DLF15geowkshop](http://bit.ly/DLF15geowkshop)
+
+[github.com/cmh2166/DLF15GeoMetadata](http://github.com/cmh2166/DLF15GeoMetadata)
 
 ---
 class: middle
-## Agenda/Method
+## Agenda
 
 1. Introduction
 2. Existing Best Practices
@@ -164,159 +164,430 @@ class: middle
 
 ---
 class: middle
-## Introduction &amp; Scope Shift
-
-**Goal for Today**:
+## Goals for This Workshop:
 
 1. Take awesome work for geospatial data
-2. Leverage in descriptive metadata for non-geospatial datasets
-3. See how it will changes our work
-
----
-class: center middle
-## Introduction &amp; Scope Shift
-
-Goal for this Work:
-
-Offer new methods - or more consistent ways to apply existing methods - for geographic discovery and identification of all resources in discovery layer.
+2. Explore how we can leverage in descriptive metadata for non-geospatial objects
+3. See how it changes our work
+4. Begin some broad best practices
 
 ---
 class: middle
-## Workshop?
+## Why This Workshop?
+
+Build new methods - or make consistent application of existing methods - for metadata supporting enhanced geographic discovery &amp; identification of all resources in discovery layer
+
+---
+class: middle
+## Is This a Workshop?
 
 - Follow along
+- **Give feedback**
 - Tinker with examples
-- Can play with tools at end
-- Discuss, build interoperable best practices across models, schema
+- Try out some tools, methods for generating
+- Discuss building interoperability
 - Please interrupt with questions, additions, corrections
 
 ---
 class: middle
-## Best Practices: MWDL
+## Existing Best Practices #1
+### Mountain West Digital Library (MWDL)
 
   * http://bit.ly/MWDLgeo
-  * Revises MWDL Dublin Core Application Profile (focused on DC in XML)
+  * Expands MWDL DC Application Profile
+  * Focus on DC (core &amp; terms) in XML
+  * Primarily for MWDL partner institutions
+  * Question of Authorities
 
 ---
 class: middle
 ## Best Practices: MWDL cont.
 
-* Geonames preferred geographic terms authority
-* Preferred Geometadata pattern:
+* Geonames preferred authority
+* Use dct:spatial, not dc:coverage
+* Recommended dct:spatial usage:
 
-place name hierarchy, URI, Latitude, Longitude ; [repeat]
+```
+place name hierarchy, URI, Lat., Long. ; [repeat]
+```
 
-* Coordinates: decimal degrees, no directional letters
-* Put above in dcterms:spatial or field that maps to that in MWDL
-* Additional Geometadata place in unmapped fields
-
----
-class: middle
-## Existing Best Practices: MWDL cont.
-
-* Looking into developing gazetter for local/regional names not in GeoNames
-* Reviewing other/better ways of handling point/box coordinates in DC
-* Some work with OpenRefine reconciliation options
+```
+Phoenix, Maricopa County, Arizona, United States,
+http://sws.geonames.org/5308655/; Aurora (historical),
+Mineral County, Nevada, United States,
+http://sws.geonames.org/5499519/;
+```
 
 ---
 class: middle
-## Existing Best Practices: MWDL Example
+## Best Practices: MWDL cont.
 
-![MWDL Geometadata Example](img/ "MWDL Geometadata Example")
+* Coordinates: decimal degrees only
+* Put in (or map to) dct:spatial
+* Other geospatial metadata => unmapped fields
+* These fields get parsed in Primo
+
+```
+Boise, Ada County, Idaho, United States,
+http://sws.geonames.org/5586437/, 43.6135, -116.20345
+```
 
 ---
 class: middle
-## Existing Best Practices: MODS
+## Best Practices: MWDL cont.
 
-* Options that currently exist
+* Develop gazetter for regional names not in Geonames?
+* Reviewing ways of handling point &amp; box coordinates in DC/XML
+* Working with OpenRefine reconciliation options
+
+---
+class: middle
+## MWDL OpenRefine Process
+
+1. Pull data into OpenRefine
+2. Hit Geonames API for each term
+3. Return from XML output for top match into OpenRefine
+4. Parse that XML return in OpenRefine for preferred term, hierarchy, URI, coordinates
+
+[Link to their test OpenRefine workflow](https://sites.google.com/site/mwdlgeospatial/home/openrefine)
+
+---
+class: middle
+## MWDL Sample Data/Process
+
+![MWDL Sample OpenRefine Project data](img/MWDLgeonamesExample.png "MWDL Sample OpenRefine Project")
+
+---
+class: middle
+## Existing Best Practices #2
+### MODS (kinda)
+
+Existing options:
+
 * originInfo/place/placeTerm
 * subject/geographic/*
-* subject/hierarchicalGeographic/*
 * subject/cartographics/*
+* subject/hierarchicalGeographic/*
 
 ---
 class: middle
-## Existing Best Practices: MODS:placeTerm
+## MODS:placeTerm
 
-* originInfo/place/placeTerm
-  * Heavily MARC related
-  * Only validates with ISO3166 or MARC Country Codes as authority (can use whatever valueURI though)
+** originInfo/place/placeTerm **
+
+* Heavily MARC-related
+* Validates only with authority=ISO3166 or MARC Country Codes
+* Can use preferred authorities' valueURI
+* RDA: transcribe as found
 
 ---
 class: middle
-## Existing Best Practices: MODS:Geographic
+## MODS:placeTerm
 
-* subject/geographic/* versus subject/hierarchicalGeographic
-* Capture any authority at subject level
-* Standard: LC or TGN, but growing preference for Geonames...?
-* Doesn't capture geographic aspects of complex subject strings
+```xml
+<originInfo>
+  <place supplied="yes">
+    <placeTerm type="text" valueURI=
+    "http://id.loc.gov/authorities/names/n79007751">
+    New York (N.Y.)
+    </placeTerm>
+  </place>
+  <dateCreated encoding="edtf" keyDate="yes">
+  1862-07-28
+  </dateCreated>
+</originInfo>
+```
+
+---
+class: middle
+## MODS:geographic
+
+** subject/geographic **
+
+* Capture authority at subject level
+* LC or TGN, growing use of Geonames
+* Can use for LCSH complex subject strings
 * Can couple with MODS:cartographics
 
 ---
 class: middle
-## Existing Best Practices: MODS:hierarchicalGeographic
+## MODS:geographic
 
-* No DLF guidelines as with other elements - perhaps add GeoBlacklight inspired guidelines?
+```xml
+<subject>
+  <geographic authority="naf" valueURI=
+  "http://id.loc.gov/authorities/names/n78095779">
+  Memphis (Tenn.)
+  </geographic>
+  <cartographics>
+    <coordinates>
+    35.14944N, 90.04889W
+    </coordinates>
+  </cartographics>
+</subject>
+```
 
 ---
 class: middle
-## Existing Best Practices: MODS:cartographic
+## MODS:cartographic
 
-* No DLF guidelines as with other elements - perhaps add GeoBlacklight inspired guidelines?
-* Can be extended with non-MODS elements
+** subject/cartographic/* **
+
+* Gives us: mods:coordinates, mods:scale, mods:projection
+* Can be extended with non-MODS elements (as of 3.6)
 
 ---
 class: middle
-## Existing Best Practices: MODS:geographicCode
+## MODS:coordinates
+
+* subchild of MODS:cartographic
+* no encoding attribute
+* repeating statements is way of handling points, lines, polygons, so:
+  * 1 coordinates statement == point
+  * 2 coordinates statements == line
+  * n coordinates statements == n-sided polygon, points supplied in polygon-traversal order
+
+---
+class: middle
+## MODS:scale, projection
+
+* subchildren of MODS:cartographic
+* no type attributes
+* in speaker's experience used rarely -- mainly MARC records transform for cartographic objects
+
+---
+class: middle
+## MODS:cartographic
+
+Similar to previous example...
+
+```xml
+<subject>
+  <geographic authority="geonames" valueURI=
+  "http://sws.geonames.org/4613427/">
+  Chota (historical)
+  </geographic>
+  <cartographics>
+    <coordinates>
+    35.55508, -84.12991
+    </coordinates>
+  </cartographics>
+</subject>
+```
+---
+class: middle
+## MODS:cartographic
+
+As of 3.6...
+
+```xml
+<subject>
+<geographic>Madison County (Tenn.)</geographic>
+<cartographics>
+  <cartographicExtension displayLabel="geo"
+  xmlns:rdf="..." xmlns:dcterms="..."
+  xmlns:rdfs="..." xmlns:dc="...">
+    <rdf:RDF >
+      <rdf:Description rdf:about="objectURI">
+        <dc:spatial>
+          <dcterms:Point>
+            <rdfs:label>Madison County</rdfs:label>
+            <rdf:value>
+            name=Madison County; east=35.60814;
+            north=-88.83847
+            </rdf:value>
+          ...
+```
+
+---
+class: middle
+## MODS:geographicCode
 
 * Like MODS:placeTerm, focused on country
-* Redundant possibly with use of valueURIs
+* Only validates with marcgac, marccountry, iso3166
+* Redundant possibly with use of valueURIs (in my opinion/limited use cases)
 
 ---
 class: middle
-## Existing Best Practices: What I do
+## MODS:hierarchicalGeographic
 
-* Couple MODS:Geographic &amp; MODS:Cartographics
-* MODS:Geographic has valueURI &amp; value from from LoC where existing, LoC-like form &amp; Geonames valueURI otherwise
-* MODS:Cartographic taken from Geonames, decimal form without
-* MODS: Hierarchical avoided at present unless legacy data (addresses), being reviewed
-* MODS:geographicCode not used
+** subject/hierarchicalGeographic/* **
 
----
-class: middle
-## Existing Best Practices: MODS w/GeoBlacklight
+* Gives us many different levels
+* Questions of Authorities
 
-* Extends MODS with Geo/GML RDF properties
-* Uses dcterms within extension for dataset properties
-* geo:boundedBy, dc:coverage for hierarchy, geo:envelope = all could be represented in MODS elements except last, but this seems better
+With 3.6:
+
+* Can indicate new place types, hierarchy levels (via attributes)
+* Can indicate relevant time period
+* Sorry Canada, 'Province' being depreciated for 'State'
 
 ---
 class: middle
-## Existing Best Practices: Europeana
+## MODS:hierarchicalGeographic
 
-  *
+```xml
+<subject>
+  <hierarchicalGeographic>
+    <country>United States</country>
+    <state>Tennessee</state>
+    <region regionType="range">
+      Great Smoky Mountains
+    </region>
+    <county>Blount County</county>
+    <city period="1800-1914">Cades Cove</city>
+  </hierarchicalGeographic>
+</subject>
+```
 
 ---
 class: middle
-## Existing Best Practices: DPLA MAP v.4
+## What I do
 
-  *
+* Subjects:
+  * geographic &amp; cartographics
+  * geographic has LoC valueURI, form
+  * cartographic from Geonames
+  * coordinates are decimal form
+  * avoid complex subject strings
+* hierarchical avoided unless legacy data
+  * If equal interest in town + county, e.g., geographic repeated
+* geographicCode not used
+* extensions used when cartographic objects
+
+---
+class: middle
+## Existing Best Practices #3
+### DPLA MAP v.4
+
+* more method then best practice
+* http://dp.la/info/developers/map/
+* JSON-LD
+* Uses dcterms:spatial with object belonging to dpla:place
+* Extends Europeana Data Model- edm:Place
+
+---
+class: middle
+## DPLA MAP v.4
+
+**dpla:Place in DPLA MAP:**
+
+- Name > skos:prefLabel
+- Latitude > wgs84_pos:lat
+- Longitude > wgs84_pos:long
+- Altitude > wgs84_pos:alt
+- Geometry > geojson:geometry
+- Parent Feature > gn:parentFeature
+- Country Code > gn:countryCode
+- ... (other properties)
+---
+class: middle
+## DPLA MAP v.4
+
+**dpla:Place Depreciated in DPLA MAP v.4:**
+
+- City > dpla:city
+- State > dpla:state
+- County > dpla:county
+- Region > dpla:region
+- Country > dpla:country
+- Coordinates > wgs84_pos:lat_long
+
+---
+class: middle
+## DPLA dpla:Place
+
+```json
+sourceResource: {
+  title: "SUMMARY OF AIR FORCE EXPERIENCE, GEN OTTO
+  P. WEYLAND, WASHINGTON, D.C",
+  spatial: [
+    {
+    name: "Washington (D.C.)",
+    state: "District of Columbia",
+    coordinates: "38.8903694153, -77.0319595337",
+    country: "United States"
+    }
+  ],
+...
+```
 
 ---
 class: center middle
 ## Standards &amp; Vocabularies:
 
-*ISO3166*
+*[ISO3166](http://www.iso.org/iso/country_codes)*
 
-Country codes. Really, that's it. Very MARC-centric
+Country codes. Really, that's it. Very MARC-centric.
 
 ---
 class: center middle
 ## Standards &amp; Vocabularies:
 
-*DCMI Point, Box Datatypes*
+*WGS84*
+
+World Geodetic System 1984. Coordinates, Altitude mainly (for library metadata data)
+
+---
+class: center middle
+## Standards &amp; Vocabularies:
+
+*DCMI [Point](http://dublincore.org/documents/2012/06/14/dcmi-terms/?v=terms#Period), [Box](http://dublincore.org/documents/dcmi-terms/#terms-Box) Datatypes*
 
 Could be used in RDF-situations to further refine objects of dcterms:spatial predicates
+
+---
+class: middle
+## Standards &amp; Vocabularies:
+
+*DCMI [Point](http://dublincore.org/documents/2012/06/14/dcmi-terms/?v=terms#Period), [Box](http://dublincore.org/documents/dcmi-terms/#terms-Box) Datatypes*
+
+```xml
+<rdf:RDF >
+  <rdf:Description rdf:about="objectURI">
+    <dc:spatial>
+      <dcterms:Point>
+        <rdfs:label>Madison County</rdfs:label>
+        <rdf:value>
+        name=Madison County; east=35.60814;
+        north=-88.83847
+        </rdf:value>
+      </dcterms:Point>
+    </dc:spatial>
+  </rdf:Description>
+</rdf:RDF>
+```
+
+---
+class: middle
+## Standards &amp; Vocabularies:
+
+*DCMI [Point](http://dublincore.org/documents/2012/06/14/dcmi-terms/?v=terms#Period), [Box](http://dublincore.org/documents/dcmi-terms/#terms-Box) Datatypes*
+
+```
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:
+  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://njh.me/objectURI> dc11:spatial [
+    a dc:Point ;
+    rdfs:label "Madison County" ;
+    rdf:value """
+            name=Madison County; east=35.60814;
+            north=-88.83847
+          """
+  ] .
+```
+
+---
+class: center middle
+## Standards &amp; Vocabularies:
+
+*[Geonames](http://www.geonames.org)*
+
+Becoming the favorite at present. Offers coordinates, hierarchy, RDF records for entities. PrefLabels don't play well with LoC headings.
 
 ---
 class: center middle
@@ -324,7 +595,15 @@ class: center middle
 
 *Geonames*
 
-Becoming the favorite at present.
+![Geonames Interface Example](img/Geonames.png "Geonames Interface Example")
+
+---
+class: center middle
+## Standards &amp; Vocabularies:
+
+*[id.loc.gov](http://id.loc.gov)*
+
+Pulling in geographic information from GeoNames. Captured some coordinates, constantly under review for further linking (base MARC, transformed into SKOS/RDF, MADS/RDF).
 
 ---
 class: center middle
@@ -332,35 +611,72 @@ class: center middle
 
 *id.loc.gov*
 
-![](img/haphazardLCcoords.png)
+![id.loc.gov Geonames matching example](img/LOCexample.png "id.loc.gov Geonames matching example")
 
 ---
-class: center middle
+class: middle
+## Standards &amp; Vocabularies:
+
+*id.loc.gov*
+
+```
+@prefix ns0: <http://www.loc.gov/mads/rdf/v1#> .
+
+<http://id.loc.gov/authorities/names/n79109786>
+  a ns0:Geographic, ns0:Authority> ;
+  ns0:authoritativeLabel "Knoxville (Tenn.)"@en ;
+  ns0:isMemberOfMADSScheme
+    <http://id.loc.gov/authorities/names> ;
+  ns0:hasSource [
+    a ns0:Source ;
+    ns0:citation-source
+      "GeoNames, algorithmically matched, 2009" ;
+    ns0:citation-note
+      "(ppl; 35°57ʹ38ʺN 083°55ʹ15ʺW)"@en ;
+    ns0:citation-status "found"
+  ] .
+```
+
+---
+class: middle
 ## Standards &amp; Vocabularies:
 
 *German National Library*
 
-![](img/localDNFcoords.png)
+```xml
+<datafield tag="034" ind1=" " ind2=" ">
+  <subfield code="d">W 000 07 32</subfield>
+  <subfield code="e">W 000 07 32</subfield>
+  <subfield code="f">N 051 30 30</subfield>
+  <subfield code="g">N 051 30 30</subfield>
+  <subfield code="2">geonames</subfield>
+  <subfield code="0">
+    (uri)http://sws.geonames.org/2643743
+  </subfield>
+  <subfield code="9">A:agx</subfield>
+</datafield>
+<datafield tag="034" ind1=" " ind2=" ">
+  <subfield code="d">W000.125740</subfield>
+  <subfield code="e">W000.125740</subfield>
+  <subfield code="f">N051.508530</subfield>
+  ...
+```
+
+---
+class: middle
+## Tools &amp; Scripts: BoundingBox
+
+By Klokan (Swiss company that focuses on Geodata), takes bounding box & encodes for choice of MARC, DC, few other schema/frameworks:
+
+[http://boundingbox.klokantech.com/](http://boundingbox.klokantech.com/)
 
 ---
 class: middle
 ## Tools &amp; Scripts: OpenRefine
 
-OpenRefine Geonames Reconciliation Service
+[OpenRefine Geonames Reconciliation Service](https://github.com/cmh2166/geonames-reconcile)
 
 Extended with LCparse, Stanford local Gazetteer for better id.loc.gov <=> Geonames matchines
-
----
-class: middle
-## Tools &amp; Scripts: OpenRefine
-
-Geonames Recon Service Run-through
-
----
-class: middle
-## Tools &amp; Scripts: OpenRefine
-
-Geonames Recon Work by MWDL
 
 ---
 class: middle
@@ -373,21 +689,14 @@ class: middle
   - TGN
 
 ---
-class: middle
-## Tools &amp; Scripts: Catmandu
-
-Sample script run through
-
----
 class: middle center
 ## Links + Contact
 
-https://github.com/cmh2166/DLF15GeoMetadata
+[http://bit.ly/DLF15geowkshop](http://bit.ly/DLF15geowkshop)
+
+[github.com/cmh2166/DLF15GeoMetadata](http://github.com/cmh2166/DLF15GeoMetadata)
 
 @cm_harlow, cmharlow@gmail.com
-
----
-class: middle
 
 
     </textarea>
