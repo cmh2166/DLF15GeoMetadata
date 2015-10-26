@@ -1,0 +1,302 @@
+@prefix aat: <http://vocab.getty.edu/aat/> .
+@prefix aat_contrib: <http://vocab.getty.edu/aat/contrib/> .
+@prefix aat_rel: <http://vocab.getty.edu/aat/rel/> .
+@prefix aat_rev: <http://vocab.getty.edu/aat/rev/> .
+@prefix aat_scopeNote: <http://vocab.getty.edu/aat/scopeNote/> .
+@prefix aat_source: <http://vocab.getty.edu/aat/source/> .
+@prefix aat_source_rev: <http://vocab.getty.edu/aat/source/rev/> .
+@prefix aat_term: <http://vocab.getty.edu/aat/term/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dctype: <http://purl.org/dc/dcmitype/> .
+@prefix fmt: <http://www.w3.org/ns/formats/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gvp: <http://vocab.getty.edu/ontology#> .
+@prefix gvp_lang: <http://vocab.getty.edu/language/> .
+@prefix iso: <http://purl.org/iso25964/skos-thes#> .
+@prefix luc: <http://www.ontotext.com/owlim/lucene#> .
+@prefix ontogeo: <http://www.ontotext.com/owlim/geo#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix ptop: <http://www.ontotext.com/proton/protontop#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rrx: <http://purl.org/r2rml-ext/> .
+@prefix schema: <http://schema.org/> .
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix tgn: <http://vocab.getty.edu/tgn/> .
+@prefix tgn_contrib: <http://vocab.getty.edu/tgn/contrib/> .
+@prefix tgn_rel: <http://vocab.getty.edu/tgn/rel/> .
+@prefix tgn_rev: <http://vocab.getty.edu/tgn/rev/> .
+@prefix tgn_scopeNote: <http://vocab.getty.edu/tgn/scopeNote/> .
+@prefix tgn_source: <http://vocab.getty.edu/tgn/source/> .
+@prefix tgn_source_rev: <http://vocab.getty.edu/tgn/source/rev/> .
+@prefix tgn_term: <http://vocab.getty.edu/tgn/term/> .
+@prefix ulan: <http://vocab.getty.edu/ulan/> .
+@prefix ulan_bio: <http://vocab.getty.edu/ulan/bio/> .
+@prefix ulan_contrib: <http://vocab.getty.edu/ulan/contrib/> .
+@prefix ulan_event: <http://vocab.getty.edu/ulan/event/> .
+@prefix ulan_rel: <http://vocab.getty.edu/ulan/rel/> .
+@prefix ulan_rev: <http://vocab.getty.edu/ulan/rev/> .
+@prefix ulan_scopeNote: <http://vocab.getty.edu/ulan/scopeNote/> .
+@prefix ulan_source: <http://vocab.getty.edu/ulan/source/> .
+@prefix ulan_source_rev: <http://vocab.getty.edu/ulan/source/rev/> .
+@prefix ulan_term: <http://vocab.getty.edu/ulan/term/> .
+@prefix vaem: <http://www.linkedmodel.org/schema/vaem#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix vdpp: <http://data.lirmm.fr/ontologies/vdpp#> .
+@prefix voaf: <http://purl.org/vocommons/voaf#> .
+@prefix voag: <http://voag.linkedmodel.org/voag#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix wv: <http://vocab.org/waiver/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+tgn:7013841 a gvp:Subject , skos:Concept , gvp:AdminPlaceConcept ;
+	rdfs:label "Knoxville" , "White's Fort" , "Whites Ford" , "Whites Mill" , "ZdWhites Ford" ;
+	rdfs:seeAlso <http://www.getty.edu/vow/TGNFullDisplay?find=&place=&nation=&subjectid=7013841> ;
+	dct:created "1992-08-09T04:55:00"^^xsd:dateTime ;
+	skos:changeNote tgn_rev:5000604765 ;
+	gvp:broader tgn:2001883 ;
+	gvp:broaderPartitiveExtended tgn:1000001 , tgn:7012149 , tgn:2001883 , tgn:7007825 , tgn:7029392 ;
+	gvp:broaderExtended tgn:1000001 , tgn:7012149 , tgn:2001883 , tgn:7007825 , tgn:7029392 ;
+	gvp:broaderPreferredExtended tgn:1000001 , tgn:7012149 , tgn:2001883 , tgn:7007825 , tgn:7029392 ;
+	gvp:parentString "Knox, Tennessee, United States, North and Central America, World" ;
+	skos:note tgn_scopeNote:37302 , tgn_rev:5000604765 ;
+	gvp:parentStringAbbrev "Knox, Tennessee, ... World" ;
+	gvp:displayOrder "308"^^xsd:positiveInteger ;
+	gvp:placeType aat:300387277 , aat:300008347 , aat:300008416 , aat:300387218 , aat:300008389 , aat:300387308 , aat:300005135 , aat:300264742 , aat:300387302 , aat:300387291 ;
+	skosxl:prefLabel tgn_term:284561 ;
+	skos:prefLabel "Knoxville" ;
+	skosxl:altLabel tgn_term:323823 , tgn_term:380517 , tgn_term:380518 , tgn_term:380519 ;
+	skos:altLabel "White's Fort" , "Whites Ford" , "Whites Mill" , "ZdWhites Ford" ;
+	gvp:broaderPartitive tgn:2001883 ;
+	gvp:broaderPreferred tgn:2001883 ;
+	skos:broader tgn:2001883 ;
+	iso:broaderPartitive tgn:2001883 ;
+	gvp:prefLabelGVP tgn_term:284561 ;
+	skos:inScheme <http://vocab.getty.edu/tgn/> ;
+	skos:scopeNote tgn_scopeNote:37302 ;
+	dct:contributor tgn_contrib:10000000 , tgn_contrib:10000001 ;
+	dct:source tgn_source:9006449 , tgn_source:2009008541-subject-7013841 , tgn_source:9006267-subject-7013841 , tgn_source:9006553-subject-7013841 ;
+	gvp:placeTypePreferred aat:300008347 ;
+	gvp:placeTypeNonPreferred aat:300387277 , aat:300008416 , aat:300387218 , aat:300008389 , aat:300387308 , aat:300005135 , aat:300264742 , aat:300387302 , aat:300387291 ;
+	dc:identifier "7013841" ;
+	skos:broaderTransitive tgn:1000001 , tgn:7012149 , tgn:2001883 , tgn:7007825 ;
+	dct:license <http://opendatacommons.org/licenses/by/1.0/> ;
+	cc:license <http://opendatacommons.org/licenses/by/1.0/> ;
+	void:inDataset <http://vocab.getty.edu/dataset/tgn> ;
+	prov:wasGeneratedBy tgn_rev:5000604765 ;
+	foaf:focus tgn:7013841-place .
+
+tgn_rev:5000604765 a prov:Activity , prov:Create ;
+	dc:type "created" ;
+	prov:startedAtTime "1992-08-09T04:55:00"^^xsd:dateTime .
+
+tgn_source:2009008541-subject-7013841 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:2009008541 ;
+	bibo:locator "VI, 921" .
+
+tgn_source:9006267-subject-7013841 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006267 ;
+	bibo:locator "618" .
+
+tgn_source:9006553-subject-7013841 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006553 ;
+	bibo:locator "GNIS47028202" .
+
+tgn_scopeNote:37302 a gvp:ScopeNote ;
+	rdf:value "Located on Tennessee River; named for Henry Knox, secretary of war in President Washington's cabinet; until 1863 occupied by Confederates during Civil War; center of large metropolitan area with diversified economy."@en ;
+	dct:contributor tgn_contrib:10000000 ;
+	dc:identifier "37302" ;
+	dct:language aat:300388277 .
+
+tgn_term:284561 a skosxl:Label ;
+	gvp:term "Knoxville" ;
+	gvp:displayOrder "1"^^xsd:positiveInteger ;
+	skosxl:literalForm "Knoxville" ;
+	gvp:termFlag <http://vocab.getty.edu/term/flag/Vernacular> ;
+	gvp:termPOS <http://vocab.getty.edu/term/POS/Noun> ;
+	gvp:contributorPreferred tgn_contrib:10000000 ;
+	dct:contributor tgn_contrib:10000000 , tgn_contrib:10000001 ;
+	gvp:contributorNonPreferred tgn_contrib:10000001 ;
+	dct:source tgn_source:9006449 , tgn_source:2009008541-term-284561 , tgn_source:9006267-term-284561 , tgn_source:9006553-term-284561 ;
+	dc:identifier "284561" .
+
+tgn_source:2009008541-term-284561 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:2009008541 ;
+	bibo:locator "VI, 921" .
+
+tgn_source:9006267-term-284561 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006267 ;
+	bibo:locator "618" .
+
+tgn_source:9006553-term-284561 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006553 ;
+	bibo:locator "GNIS47028202" .
+
+tgn_term:323823 a skosxl:Label ;
+	gvp:term "White's Fort" ;
+	gvp:displayOrder "2"^^xsd:positiveInteger ;
+	skosxl:literalForm "White's Fort" ;
+	gvp:termFlag <http://vocab.getty.edu/term/flag/Vernacular> ;
+	gvp:historicFlag <http://vocab.getty.edu/historic/historic> ;
+	gvp:termPOS <http://vocab.getty.edu/term/POS/Noun> ;
+	dct:contributor tgn_contrib:10000000 ;
+	gvp:contributorNonPreferred tgn_contrib:10000000 ;
+	dct:source tgn_source:2009008541-term-323823 , tgn_source:9006553-term-323823 ;
+	dc:identifier "323823" .
+
+tgn_term:380517 a skosxl:Label ;
+	gvp:term "Whites Ford" ;
+	gvp:displayOrder "3"^^xsd:positiveInteger ;
+	skosxl:literalForm "Whites Ford" ;
+	gvp:termFlag <http://vocab.getty.edu/term/flag/Vernacular> ;
+	gvp:termPOS <http://vocab.getty.edu/term/POS/Noun> ;
+	dct:contributor tgn_contrib:10000000 ;
+	gvp:contributorNonPreferred tgn_contrib:10000000 ;
+	dct:source tgn_source:9006553-term-380517 ;
+	dc:identifier "380517" .
+
+tgn_term:380518 a skosxl:Label ;
+	gvp:term "Whites Mill" ;
+	gvp:displayOrder "4"^^xsd:positiveInteger ;
+	skosxl:literalForm "Whites Mill" ;
+	gvp:termFlag <http://vocab.getty.edu/term/flag/Vernacular> ;
+	gvp:termPOS <http://vocab.getty.edu/term/POS/Noun> ;
+	dct:contributor tgn_contrib:10000000 ;
+	gvp:contributorNonPreferred tgn_contrib:10000000 ;
+	dct:source tgn_source:9006553-term-380518 ;
+	dc:identifier "380518" .
+
+tgn_term:380519 a skosxl:Label ;
+	gvp:term "ZdWhites Ford" ;
+	gvp:displayOrder "5"^^xsd:positiveInteger ;
+	skosxl:literalForm "ZdWhites Ford" ;
+	gvp:termFlag <http://vocab.getty.edu/term/flag/Vernacular> ;
+	gvp:termPOS <http://vocab.getty.edu/term/POS/Noun> ;
+	dct:contributor tgn_contrib:10000000 ;
+	gvp:contributorNonPreferred tgn_contrib:10000000 ;
+	dct:source tgn_source:9006553-term-380519 ;
+	dc:identifier "380519" .
+
+tgn_source:2009008541-term-323823 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:2009008541 ;
+	bibo:locator "VI, 921" .
+
+tgn_source:9006553-term-323823 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006553 ;
+	bibo:locator "GNIS47028202" .
+
+tgn_source:9006553-term-380517 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006553 ;
+	bibo:locator "GNIS47028202" .
+
+tgn_source:9006553-term-380518 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006553 ;
+	bibo:locator "GNIS47028202" .
+
+tgn_source:9006553-term-380519 a bibo:DocumentPart ;
+	dct:isPartOf tgn_source:9006553 ;
+	bibo:locator "GNIS47028202" .
+
+tgn_rel:7013841-placeType-300008347 a rdf:Statement ;
+	rdf:subject tgn:7013841 ;
+	rdf:predicate gvp:placeTypePreferred ;
+	rdf:object aat:300008347 ;
+	rdfs:comment "settled in 1785 when treaty with Cherokee Indians opened region to settlers; site was first established as a frontier outpost" ;
+	gvp:displayOrder "1"^^xsd:positiveInteger ;
+	gvp:estStart "1785"^^xsd:gYear .
+
+tgn_rel:7013841-placeType-300008389 a rdf:Statement ;
+	rdf:subject tgn:7013841 ;
+	rdf:predicate gvp:placeTypeNonPreferred ;
+	rdf:object aat:300008389 ;
+	gvp:displayOrder "2"^^xsd:positiveInteger .
+
+tgn_rel:7013841-placeType-300008416 a rdf:Statement ;
+	rdf:subject tgn:7013841 ;
+	rdf:predicate gvp:placeTypeNonPreferred ;
+	rdf:object aat:300008416 ;
+	gvp:displayOrder "3"^^xsd:positiveInteger .
+
+tgn_rel:7013841-placeType-300387308 a rdf:Statement ;
+	rdf:subject tgn:7013841 ;
+	rdf:predicate gvp:placeTypeNonPreferred ;
+	rdf:object aat:300387308 ;
+	rdfs:comment "for textiles, furniture, plastics, clothing, auto seat belts, temperature controls & chemicals" ;
+	gvp:displayOrder "4"^^xsd:positiveInteger ;
+	gvp:estStart "1900"^^xsd:gYear .
+
+tgn_rel:7013841-placeType-300387302 a rdf:Statement ;
+	rdf:subject tgn:7013841 ;
+	rdf:predicate gvp:placeTypeNonPreferred ;
+	rdf:object aat:300387302 ;
+	rdfs:comment "for mining, quarrying, distribution & lumber" ;
+	gvp:displayOrder "5"^^xsd:positiveInteger ;
+	gvp:estStart "1900"^^xsd:gYear .
+
+tgn_rel:7013841-placeType-300387277 a rdf:Statement ;
+	rdf:subject tgn:7013841 ;
+	rdf:predicate gvp:placeTypeNonPreferred ;
+	rdf:object aat:300387277 ;
+	rdfs:comment "for flour & feed, tobacco & livestock" ;
+	gvp:displayOrder "6"^^xsd:positiveInteger ;
+	gvp:estStart "1900"^^xsd:gYear .
+
+tgn_rel:7013841-placeType-300387291 a rdf:Statement ;
+	rdf:subject tgn:7013841 ;
+	rdf:predicate gvp:placeTypeNonPreferred ;
+	rdf:object aat:300387291 ;
+	rdfs:comment "includes Great Smokey Mountains National Park & Cumberland Mountains" ;
+	gvp:displayOrder "7"^^xsd:positiveInteger ;
+	gvp:estStart "1900"^^xsd:gYear .
+
+tgn_rel:7013841-placeType-300264742 a rdf:Statement ;
+	rdf:subject tgn:7013841 ;
+	rdf:predicate gvp:placeTypeNonPreferred ;
+	rdf:object aat:300264742 ;
+	rdfs:comment "houses University of Tennesee, Knoxville College & Tennessee School for Deaf" ;
+	gvp:displayOrder "8"^^xsd:positiveInteger ;
+	gvp:estStart "1794"^^xsd:gYear .
+
+tgn_rel:7013841-placeType-300005135 a rdf:Statement ;
+	rdf:subject tgn:7013841 ;
+	rdf:predicate gvp:placeTypeNonPreferred ;
+	rdf:object aat:300005135 ;
+	rdfs:comment "noted for historic buildings from Civil War, McClung Historical Collection in Lawson McGhee Library & Sunsphere" ;
+	gvp:displayOrder "9"^^xsd:positiveInteger ;
+	gvp:estStart "1790"^^xsd:gYear .
+
+tgn_rel:7013841-placeType-300387218 a rdf:Statement ;
+	rdf:subject tgn:7013841 ;
+	rdf:predicate gvp:placeTypeNonPreferred ;
+	rdf:object aat:300387218 ;
+	rdfs:comment "of Territory South of River Ohio; of Tennessee state" ;
+	gvp:displayOrder "10"^^xsd:positiveInteger ;
+	gvp:estStart "1796"^^xsd:gYear ;
+	gvp:estEnd "1819"^^xsd:gYear ;
+	gvp:historicFlag <http://vocab.getty.edu/historic/historic> .
+
+tgn:7013841-place a schema:Place , wgs:SpatialThing ;
+	wgs:lat "35.95"^^xsd:decimal ;
+	wgs:long "-83.9167"^^xsd:decimal ;
+	dct:license <http://opendatacommons.org/licenses/by/1.0/> ;
+	cc:license <http://opendatacommons.org/licenses/by/1.0/> ;
+	void:inDataset <http://vocab.getty.edu/dataset/tgn> ;
+	schema:geo tgn:7013841-geometry .
+
+tgn:7013841-geometry a schema:GeoCoordinates ;
+	schema:latitude "35.95"^^xsd:decimal ;
+	schema:longitude "-83.9167"^^xsd:decimal .

@@ -1,0 +1,264 @@
+<http://vocab.getty.edu/tgn/7013841> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.getty.edu/ontology#Subject> .
+<http://vocab.getty.edu/tgn/7013841> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://vocab.getty.edu/tgn/7013841> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.getty.edu/ontology#AdminPlaceConcept> .
+<http://vocab.getty.edu/tgn/7013841> <http://www.w3.org/2000/01/rdf-schema#label> "Knoxville" .
+<http://vocab.getty.edu/tgn/7013841> <http://www.w3.org/2000/01/rdf-schema#label> "White's Fort" .
+<http://vocab.getty.edu/tgn/7013841> <http://www.w3.org/2000/01/rdf-schema#label> "Whites Ford" .
+<http://vocab.getty.edu/tgn/7013841> <http://www.w3.org/2000/01/rdf-schema#label> "Whites Mill" .
+<http://vocab.getty.edu/tgn/7013841> <http://www.w3.org/2000/01/rdf-schema#label> "ZdWhites Ford" .
+<http://vocab.getty.edu/tgn/7013841> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.getty.edu/vow/TGNFullDisplay?find=&place=&nation=&subjectid=7013841> .
+<http://vocab.getty.edu/tgn/7013841> <http://purl.org/dc/terms/created> "1992-08-09T04:55:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://vocab.getty.edu/tgn/7013841> <http://www.w3.org/2004/02/skos/core#changeNote> <http://vocab.getty.edu/tgn/rev/5000604765> .
+<http://vocab.getty.edu/tgn/7013841> <http://vocab.getty.edu/ontology#broader> <http://vocab.getty.edu/tgn/2001883> .
+<http://vocab.getty.edu/tgn/7013841> <http://vocab.getty.edu/ontology#broaderPartitiveExtended> <http://vocab.getty.edu/tgn/1000001> .
+<http://vocab.getty.edu/tgn/7013841> <http://vocab.getty.edu/ontology#broaderPartitiveExtended> <http://vocab.getty.edu/tgn/7012149> .
+<http://vocab.getty.edu/tgn/7013841> <http://vocab.getty.edu/ontology#broaderPartitiveExtended> <http://vocab.getty.edu/tgn/2001883> .
+<http://vocab.getty.edu/tgn/7013841> <http://vocab.getty.edu/ontology#broaderPartitiveExtended> <http://vocab.getty.edu/tgn/7007825> .
+<http://vocab.getty.edu/tgn/7013841> <http://vocab.getty.edu/ontology#broaderPartitiveExtended> <http://vocab.getty.edu/tgn/7029392> .
+<http://vocab.getty.edu/tgn/7013841> <http://vocab.getty.edu/ontology#broaderExtended> <http://vocab.getty.edu/tgn/1000001> .
+<http://vocab.getty.edu/tgn/7013841> <http://vocab.getty.edu/ontology#broaderExtended> <http://vocab.getty.edu/tgn/7012149> .
+<http://vocab.getty.edu/tgn/7013841> <http://vocab.getty.edu/ontology#broaderExtended> <http://vocab.getty.edu/tgn/2001883> .
+<http://vocab.getty.edu/tgn/7013841> <http://vocab.getty.edu/ontology#broaderExtended> <http://vocab.getty.edu/tgn/7007825> .
+<http://vocab.getty.edu/tgn/7013841> <http://vocab.getty.edu/ontology#broaderExtended> <http://vocab.getty.edu/tgn/7029392> .
+<http://vocab.getty.edu/tgn/7013841> <http://vocab.getty.edu/ontology#broaderPreferredExtended> <http://vocab.getty.edu/tgn/1000001> .
+<http://vocab.getty.edu/tgn/7013841> <http://vocab.getty.edu/ontology#broaderPreferredExtended> <http://vocab.getty.edu/tgn/7012149> .
+<http://vocab.getty.edu/tgn/7013841> <http://vocab.getty.edu/ontology#broaderPreferredExtended> <http://vocab.getty.edu/tgn/2001883> .
+<http://vocab.getty.edu/tgn/7013841> <http://vocab.getty.edu/ontology#broaderPreferredExtended> <http://vocab.getty.edu/tgn/7007825> .
+<http://vocab.getty.edu/tgn/7013841> <http://vocab.getty.edu/ontology#broaderPreferredExtended> <http://vocab.getty.edu/tgn/7029392> .
+<http://vocab.getty.edu/tgn/7013841> <http://vocab.getty.edu/ontology#parentString> "Knox, Tennessee, United States, North and Central America, World" .
+<http://vocab.getty.edu/tgn/7013841> <http://www.w3.org/2004/02/skos/core#note> <http://vocab.getty.edu/tgn/scopeNote/37302> .
+<http://vocab.getty.edu/tgn/7013841> <http://www.w3.org/2004/02/skos/core#note> <http://vocab.getty.edu/tgn/rev/5000604765> .
+<http://vocab.getty.edu/tgn/7013841> <http://vocab.getty.edu/ontology#parentStringAbbrev> "Knox, Tennessee, ... World" .
+<http://vocab.getty.edu/tgn/7013841> <http://vocab.getty.edu/ontology#displayOrder> "308"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
+<http://vocab.getty.edu/tgn/7013841> <http://vocab.getty.edu/ontology#placeType> <http://vocab.getty.edu/aat/300387277> .
+<http://vocab.getty.edu/tgn/7013841> <http://vocab.getty.edu/ontology#placeType> <http://vocab.getty.edu/aat/300008347> .
+<http://vocab.getty.edu/tgn/7013841> <http://vocab.getty.edu/ontology#placeType> <http://vocab.getty.edu/aat/300008416> .
+<http://vocab.getty.edu/tgn/7013841> <http://vocab.getty.edu/ontology#placeType> <http://vocab.getty.edu/aat/300387218> .
+<http://vocab.getty.edu/tgn/7013841> <http://vocab.getty.edu/ontology#placeType> <http://vocab.getty.edu/aat/300008389> .
+<http://vocab.getty.edu/tgn/7013841> <http://vocab.getty.edu/ontology#placeType> <http://vocab.getty.edu/aat/300387308> .
+<http://vocab.getty.edu/tgn/7013841> <http://vocab.getty.edu/ontology#placeType> <http://vocab.getty.edu/aat/300005135> .
+<http://vocab.getty.edu/tgn/7013841> <http://vocab.getty.edu/ontology#placeType> <http://vocab.getty.edu/aat/300264742> .
+<http://vocab.getty.edu/tgn/7013841> <http://vocab.getty.edu/ontology#placeType> <http://vocab.getty.edu/aat/300387302> .
+<http://vocab.getty.edu/tgn/7013841> <http://vocab.getty.edu/ontology#placeType> <http://vocab.getty.edu/aat/300387291> .
+<http://vocab.getty.edu/tgn/7013841> <http://www.w3.org/2008/05/skos-xl#prefLabel> <http://vocab.getty.edu/tgn/term/284561> .
+<http://vocab.getty.edu/tgn/7013841> <http://www.w3.org/2004/02/skos/core#prefLabel> "Knoxville" .
+<http://vocab.getty.edu/tgn/7013841> <http://www.w3.org/2008/05/skos-xl#altLabel> <http://vocab.getty.edu/tgn/term/323823> .
+<http://vocab.getty.edu/tgn/7013841> <http://www.w3.org/2008/05/skos-xl#altLabel> <http://vocab.getty.edu/tgn/term/380517> .
+<http://vocab.getty.edu/tgn/7013841> <http://www.w3.org/2008/05/skos-xl#altLabel> <http://vocab.getty.edu/tgn/term/380518> .
+<http://vocab.getty.edu/tgn/7013841> <http://www.w3.org/2008/05/skos-xl#altLabel> <http://vocab.getty.edu/tgn/term/380519> .
+<http://vocab.getty.edu/tgn/7013841> <http://www.w3.org/2004/02/skos/core#altLabel> "White's Fort" .
+<http://vocab.getty.edu/tgn/7013841> <http://www.w3.org/2004/02/skos/core#altLabel> "Whites Ford" .
+<http://vocab.getty.edu/tgn/7013841> <http://www.w3.org/2004/02/skos/core#altLabel> "Whites Mill" .
+<http://vocab.getty.edu/tgn/7013841> <http://www.w3.org/2004/02/skos/core#altLabel> "ZdWhites Ford" .
+<http://vocab.getty.edu/tgn/7013841> <http://vocab.getty.edu/ontology#broaderPartitive> <http://vocab.getty.edu/tgn/2001883> .
+<http://vocab.getty.edu/tgn/7013841> <http://vocab.getty.edu/ontology#broaderPreferred> <http://vocab.getty.edu/tgn/2001883> .
+<http://vocab.getty.edu/tgn/7013841> <http://www.w3.org/2004/02/skos/core#broader> <http://vocab.getty.edu/tgn/2001883> .
+<http://vocab.getty.edu/tgn/7013841> <http://purl.org/iso25964/skos-thes#broaderPartitive> <http://vocab.getty.edu/tgn/2001883> .
+<http://vocab.getty.edu/tgn/7013841> <http://vocab.getty.edu/ontology#prefLabelGVP> <http://vocab.getty.edu/tgn/term/284561> .
+<http://vocab.getty.edu/tgn/7013841> <http://www.w3.org/2004/02/skos/core#inScheme> <http://vocab.getty.edu/tgn/> .
+<http://vocab.getty.edu/tgn/7013841> <http://www.w3.org/2004/02/skos/core#scopeNote> <http://vocab.getty.edu/tgn/scopeNote/37302> .
+<http://vocab.getty.edu/tgn/7013841> <http://purl.org/dc/terms/contributor> <http://vocab.getty.edu/tgn/contrib/10000000> .
+<http://vocab.getty.edu/tgn/7013841> <http://purl.org/dc/terms/contributor> <http://vocab.getty.edu/tgn/contrib/10000001> .
+<http://vocab.getty.edu/tgn/7013841> <http://purl.org/dc/terms/source> <http://vocab.getty.edu/tgn/source/9006449> .
+<http://vocab.getty.edu/tgn/7013841> <http://purl.org/dc/terms/source> <http://vocab.getty.edu/tgn/source/2009008541-subject-7013841> .
+<http://vocab.getty.edu/tgn/7013841> <http://purl.org/dc/terms/source> <http://vocab.getty.edu/tgn/source/9006267-subject-7013841> .
+<http://vocab.getty.edu/tgn/7013841> <http://purl.org/dc/terms/source> <http://vocab.getty.edu/tgn/source/9006553-subject-7013841> .
+<http://vocab.getty.edu/tgn/7013841> <http://vocab.getty.edu/ontology#placeTypePreferred> <http://vocab.getty.edu/aat/300008347> .
+<http://vocab.getty.edu/tgn/7013841> <http://vocab.getty.edu/ontology#placeTypeNonPreferred> <http://vocab.getty.edu/aat/300387277> .
+<http://vocab.getty.edu/tgn/7013841> <http://vocab.getty.edu/ontology#placeTypeNonPreferred> <http://vocab.getty.edu/aat/300008416> .
+<http://vocab.getty.edu/tgn/7013841> <http://vocab.getty.edu/ontology#placeTypeNonPreferred> <http://vocab.getty.edu/aat/300387218> .
+<http://vocab.getty.edu/tgn/7013841> <http://vocab.getty.edu/ontology#placeTypeNonPreferred> <http://vocab.getty.edu/aat/300008389> .
+<http://vocab.getty.edu/tgn/7013841> <http://vocab.getty.edu/ontology#placeTypeNonPreferred> <http://vocab.getty.edu/aat/300387308> .
+<http://vocab.getty.edu/tgn/7013841> <http://vocab.getty.edu/ontology#placeTypeNonPreferred> <http://vocab.getty.edu/aat/300005135> .
+<http://vocab.getty.edu/tgn/7013841> <http://vocab.getty.edu/ontology#placeTypeNonPreferred> <http://vocab.getty.edu/aat/300264742> .
+<http://vocab.getty.edu/tgn/7013841> <http://vocab.getty.edu/ontology#placeTypeNonPreferred> <http://vocab.getty.edu/aat/300387302> .
+<http://vocab.getty.edu/tgn/7013841> <http://vocab.getty.edu/ontology#placeTypeNonPreferred> <http://vocab.getty.edu/aat/300387291> .
+<http://vocab.getty.edu/tgn/7013841> <http://purl.org/dc/elements/1.1/identifier> "7013841" .
+<http://vocab.getty.edu/tgn/7013841> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://vocab.getty.edu/tgn/1000001> .
+<http://vocab.getty.edu/tgn/7013841> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://vocab.getty.edu/tgn/7012149> .
+<http://vocab.getty.edu/tgn/7013841> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://vocab.getty.edu/tgn/2001883> .
+<http://vocab.getty.edu/tgn/7013841> <http://www.w3.org/2004/02/skos/core#broaderTransitive> <http://vocab.getty.edu/tgn/7007825> .
+<http://vocab.getty.edu/tgn/7013841> <http://purl.org/dc/terms/license> <http://opendatacommons.org/licenses/by/1.0/> .
+<http://vocab.getty.edu/tgn/7013841> <http://creativecommons.org/ns#license> <http://opendatacommons.org/licenses/by/1.0/> .
+<http://vocab.getty.edu/tgn/7013841> <http://rdfs.org/ns/void#inDataset> <http://vocab.getty.edu/dataset/tgn> .
+<http://vocab.getty.edu/tgn/7013841> <http://www.w3.org/ns/prov#wasGeneratedBy> <http://vocab.getty.edu/tgn/rev/5000604765> .
+<http://vocab.getty.edu/tgn/7013841> <http://xmlns.com/foaf/0.1/focus> <http://vocab.getty.edu/tgn/7013841-place> .
+<http://vocab.getty.edu/tgn/rev/5000604765> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Activity> .
+<http://vocab.getty.edu/tgn/rev/5000604765> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Create> .
+<http://vocab.getty.edu/tgn/rev/5000604765> <http://purl.org/dc/elements/1.1/type> "created" .
+<http://vocab.getty.edu/tgn/rev/5000604765> <http://www.w3.org/ns/prov#startedAtTime> "1992-08-09T04:55:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://vocab.getty.edu/tgn/source/2009008541-subject-7013841> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/DocumentPart> .
+<http://vocab.getty.edu/tgn/source/2009008541-subject-7013841> <http://purl.org/dc/terms/isPartOf> <http://vocab.getty.edu/tgn/source/2009008541> .
+<http://vocab.getty.edu/tgn/source/2009008541-subject-7013841> <http://purl.org/ontology/bibo/locator> "VI, 921" .
+<http://vocab.getty.edu/tgn/source/9006267-subject-7013841> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/DocumentPart> .
+<http://vocab.getty.edu/tgn/source/9006267-subject-7013841> <http://purl.org/dc/terms/isPartOf> <http://vocab.getty.edu/tgn/source/9006267> .
+<http://vocab.getty.edu/tgn/source/9006267-subject-7013841> <http://purl.org/ontology/bibo/locator> "618" .
+<http://vocab.getty.edu/tgn/source/9006553-subject-7013841> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/DocumentPart> .
+<http://vocab.getty.edu/tgn/source/9006553-subject-7013841> <http://purl.org/dc/terms/isPartOf> <http://vocab.getty.edu/tgn/source/9006553> .
+<http://vocab.getty.edu/tgn/source/9006553-subject-7013841> <http://purl.org/ontology/bibo/locator> "GNIS47028202" .
+<http://vocab.getty.edu/tgn/scopeNote/37302> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://vocab.getty.edu/ontology#ScopeNote> .
+<http://vocab.getty.edu/tgn/scopeNote/37302> <http://www.w3.org/1999/02/22-rdf-syntax-ns#value> "Located on Tennessee River; named for Henry Knox, secretary of war in President Washington's cabinet; until 1863 occupied by Confederates during Civil War; center of large metropolitan area with diversified economy."@en .
+<http://vocab.getty.edu/tgn/scopeNote/37302> <http://purl.org/dc/terms/contributor> <http://vocab.getty.edu/tgn/contrib/10000000> .
+<http://vocab.getty.edu/tgn/scopeNote/37302> <http://purl.org/dc/elements/1.1/identifier> "37302" .
+<http://vocab.getty.edu/tgn/scopeNote/37302> <http://purl.org/dc/terms/language> <http://vocab.getty.edu/aat/300388277> .
+<http://vocab.getty.edu/tgn/scopeNote/37302> <http://purl.org/dc/terms/language> <http://vocab.getty.edu/language/en> .
+<http://vocab.getty.edu/tgn/term/284561> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2008/05/skos-xl#Label> .
+<http://vocab.getty.edu/tgn/term/284561> <http://vocab.getty.edu/ontology#term> "Knoxville" .
+<http://vocab.getty.edu/tgn/term/284561> <http://vocab.getty.edu/ontology#displayOrder> "1"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
+<http://vocab.getty.edu/tgn/term/284561> <http://www.w3.org/2008/05/skos-xl#literalForm> "Knoxville" .
+<http://vocab.getty.edu/tgn/term/284561> <http://vocab.getty.edu/ontology#termFlag> <http://vocab.getty.edu/term/flag/Vernacular> .
+<http://vocab.getty.edu/tgn/term/284561> <http://vocab.getty.edu/ontology#termPOS> <http://vocab.getty.edu/term/POS/Noun> .
+<http://vocab.getty.edu/tgn/term/284561> <http://vocab.getty.edu/ontology#contributorPreferred> <http://vocab.getty.edu/tgn/contrib/10000000> .
+<http://vocab.getty.edu/tgn/term/284561> <http://purl.org/dc/terms/contributor> <http://vocab.getty.edu/tgn/contrib/10000000> .
+<http://vocab.getty.edu/tgn/term/284561> <http://purl.org/dc/terms/contributor> <http://vocab.getty.edu/tgn/contrib/10000001> .
+<http://vocab.getty.edu/tgn/term/284561> <http://vocab.getty.edu/ontology#contributorNonPreferred> <http://vocab.getty.edu/tgn/contrib/10000001> .
+<http://vocab.getty.edu/tgn/term/284561> <http://purl.org/dc/terms/source> <http://vocab.getty.edu/tgn/source/9006449> .
+<http://vocab.getty.edu/tgn/term/284561> <http://purl.org/dc/terms/source> <http://vocab.getty.edu/tgn/source/2009008541-term-284561> .
+<http://vocab.getty.edu/tgn/term/284561> <http://purl.org/dc/terms/source> <http://vocab.getty.edu/tgn/source/9006267-term-284561> .
+<http://vocab.getty.edu/tgn/term/284561> <http://purl.org/dc/terms/source> <http://vocab.getty.edu/tgn/source/9006553-term-284561> .
+<http://vocab.getty.edu/tgn/term/284561> <http://purl.org/dc/elements/1.1/identifier> "284561" .
+<http://vocab.getty.edu/tgn/source/2009008541-term-284561> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/DocumentPart> .
+<http://vocab.getty.edu/tgn/source/2009008541-term-284561> <http://purl.org/dc/terms/isPartOf> <http://vocab.getty.edu/tgn/source/2009008541> .
+<http://vocab.getty.edu/tgn/source/2009008541-term-284561> <http://purl.org/ontology/bibo/locator> "VI, 921" .
+<http://vocab.getty.edu/tgn/source/9006267-term-284561> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/DocumentPart> .
+<http://vocab.getty.edu/tgn/source/9006267-term-284561> <http://purl.org/dc/terms/isPartOf> <http://vocab.getty.edu/tgn/source/9006267> .
+<http://vocab.getty.edu/tgn/source/9006267-term-284561> <http://purl.org/ontology/bibo/locator> "618" .
+<http://vocab.getty.edu/tgn/source/9006553-term-284561> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/DocumentPart> .
+<http://vocab.getty.edu/tgn/source/9006553-term-284561> <http://purl.org/dc/terms/isPartOf> <http://vocab.getty.edu/tgn/source/9006553> .
+<http://vocab.getty.edu/tgn/source/9006553-term-284561> <http://purl.org/ontology/bibo/locator> "GNIS47028202" .
+<http://vocab.getty.edu/tgn/term/323823> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2008/05/skos-xl#Label> .
+<http://vocab.getty.edu/tgn/term/323823> <http://vocab.getty.edu/ontology#term> "White's Fort" .
+<http://vocab.getty.edu/tgn/term/323823> <http://vocab.getty.edu/ontology#displayOrder> "2"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
+<http://vocab.getty.edu/tgn/term/323823> <http://www.w3.org/2008/05/skos-xl#literalForm> "White's Fort" .
+<http://vocab.getty.edu/tgn/term/323823> <http://vocab.getty.edu/ontology#termFlag> <http://vocab.getty.edu/term/flag/Vernacular> .
+<http://vocab.getty.edu/tgn/term/323823> <http://vocab.getty.edu/ontology#historicFlag> <http://vocab.getty.edu/historic/historic> .
+<http://vocab.getty.edu/tgn/term/323823> <http://vocab.getty.edu/ontology#termPOS> <http://vocab.getty.edu/term/POS/Noun> .
+<http://vocab.getty.edu/tgn/term/323823> <http://purl.org/dc/terms/contributor> <http://vocab.getty.edu/tgn/contrib/10000000> .
+<http://vocab.getty.edu/tgn/term/323823> <http://vocab.getty.edu/ontology#contributorNonPreferred> <http://vocab.getty.edu/tgn/contrib/10000000> .
+<http://vocab.getty.edu/tgn/term/323823> <http://purl.org/dc/terms/source> <http://vocab.getty.edu/tgn/source/2009008541-term-323823> .
+<http://vocab.getty.edu/tgn/term/323823> <http://purl.org/dc/terms/source> <http://vocab.getty.edu/tgn/source/9006553-term-323823> .
+<http://vocab.getty.edu/tgn/term/323823> <http://purl.org/dc/elements/1.1/identifier> "323823" .
+<http://vocab.getty.edu/tgn/term/380517> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2008/05/skos-xl#Label> .
+<http://vocab.getty.edu/tgn/term/380517> <http://vocab.getty.edu/ontology#term> "Whites Ford" .
+<http://vocab.getty.edu/tgn/term/380517> <http://vocab.getty.edu/ontology#displayOrder> "3"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
+<http://vocab.getty.edu/tgn/term/380517> <http://www.w3.org/2008/05/skos-xl#literalForm> "Whites Ford" .
+<http://vocab.getty.edu/tgn/term/380517> <http://vocab.getty.edu/ontology#termFlag> <http://vocab.getty.edu/term/flag/Vernacular> .
+<http://vocab.getty.edu/tgn/term/380517> <http://vocab.getty.edu/ontology#termPOS> <http://vocab.getty.edu/term/POS/Noun> .
+<http://vocab.getty.edu/tgn/term/380517> <http://purl.org/dc/terms/contributor> <http://vocab.getty.edu/tgn/contrib/10000000> .
+<http://vocab.getty.edu/tgn/term/380517> <http://vocab.getty.edu/ontology#contributorNonPreferred> <http://vocab.getty.edu/tgn/contrib/10000000> .
+<http://vocab.getty.edu/tgn/term/380517> <http://purl.org/dc/terms/source> <http://vocab.getty.edu/tgn/source/9006553-term-380517> .
+<http://vocab.getty.edu/tgn/term/380517> <http://purl.org/dc/elements/1.1/identifier> "380517" .
+<http://vocab.getty.edu/tgn/term/380518> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2008/05/skos-xl#Label> .
+<http://vocab.getty.edu/tgn/term/380518> <http://vocab.getty.edu/ontology#term> "Whites Mill" .
+<http://vocab.getty.edu/tgn/term/380518> <http://vocab.getty.edu/ontology#displayOrder> "4"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
+<http://vocab.getty.edu/tgn/term/380518> <http://www.w3.org/2008/05/skos-xl#literalForm> "Whites Mill" .
+<http://vocab.getty.edu/tgn/term/380518> <http://vocab.getty.edu/ontology#termFlag> <http://vocab.getty.edu/term/flag/Vernacular> .
+<http://vocab.getty.edu/tgn/term/380518> <http://vocab.getty.edu/ontology#termPOS> <http://vocab.getty.edu/term/POS/Noun> .
+<http://vocab.getty.edu/tgn/term/380518> <http://purl.org/dc/terms/contributor> <http://vocab.getty.edu/tgn/contrib/10000000> .
+<http://vocab.getty.edu/tgn/term/380518> <http://vocab.getty.edu/ontology#contributorNonPreferred> <http://vocab.getty.edu/tgn/contrib/10000000> .
+<http://vocab.getty.edu/tgn/term/380518> <http://purl.org/dc/terms/source> <http://vocab.getty.edu/tgn/source/9006553-term-380518> .
+<http://vocab.getty.edu/tgn/term/380518> <http://purl.org/dc/elements/1.1/identifier> "380518" .
+<http://vocab.getty.edu/tgn/term/380519> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2008/05/skos-xl#Label> .
+<http://vocab.getty.edu/tgn/term/380519> <http://vocab.getty.edu/ontology#term> "ZdWhites Ford" .
+<http://vocab.getty.edu/tgn/term/380519> <http://vocab.getty.edu/ontology#displayOrder> "5"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
+<http://vocab.getty.edu/tgn/term/380519> <http://www.w3.org/2008/05/skos-xl#literalForm> "ZdWhites Ford" .
+<http://vocab.getty.edu/tgn/term/380519> <http://vocab.getty.edu/ontology#termFlag> <http://vocab.getty.edu/term/flag/Vernacular> .
+<http://vocab.getty.edu/tgn/term/380519> <http://vocab.getty.edu/ontology#termPOS> <http://vocab.getty.edu/term/POS/Noun> .
+<http://vocab.getty.edu/tgn/term/380519> <http://purl.org/dc/terms/contributor> <http://vocab.getty.edu/tgn/contrib/10000000> .
+<http://vocab.getty.edu/tgn/term/380519> <http://vocab.getty.edu/ontology#contributorNonPreferred> <http://vocab.getty.edu/tgn/contrib/10000000> .
+<http://vocab.getty.edu/tgn/term/380519> <http://purl.org/dc/terms/source> <http://vocab.getty.edu/tgn/source/9006553-term-380519> .
+<http://vocab.getty.edu/tgn/term/380519> <http://purl.org/dc/elements/1.1/identifier> "380519" .
+<http://vocab.getty.edu/tgn/source/2009008541-term-323823> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/DocumentPart> .
+<http://vocab.getty.edu/tgn/source/2009008541-term-323823> <http://purl.org/dc/terms/isPartOf> <http://vocab.getty.edu/tgn/source/2009008541> .
+<http://vocab.getty.edu/tgn/source/2009008541-term-323823> <http://purl.org/ontology/bibo/locator> "VI, 921" .
+<http://vocab.getty.edu/tgn/source/9006553-term-323823> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/DocumentPart> .
+<http://vocab.getty.edu/tgn/source/9006553-term-323823> <http://purl.org/dc/terms/isPartOf> <http://vocab.getty.edu/tgn/source/9006553> .
+<http://vocab.getty.edu/tgn/source/9006553-term-323823> <http://purl.org/ontology/bibo/locator> "GNIS47028202" .
+<http://vocab.getty.edu/tgn/source/9006553-term-380517> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/DocumentPart> .
+<http://vocab.getty.edu/tgn/source/9006553-term-380517> <http://purl.org/dc/terms/isPartOf> <http://vocab.getty.edu/tgn/source/9006553> .
+<http://vocab.getty.edu/tgn/source/9006553-term-380517> <http://purl.org/ontology/bibo/locator> "GNIS47028202" .
+<http://vocab.getty.edu/tgn/source/9006553-term-380518> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/DocumentPart> .
+<http://vocab.getty.edu/tgn/source/9006553-term-380518> <http://purl.org/dc/terms/isPartOf> <http://vocab.getty.edu/tgn/source/9006553> .
+<http://vocab.getty.edu/tgn/source/9006553-term-380518> <http://purl.org/ontology/bibo/locator> "GNIS47028202" .
+<http://vocab.getty.edu/tgn/source/9006553-term-380519> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/DocumentPart> .
+<http://vocab.getty.edu/tgn/source/9006553-term-380519> <http://purl.org/dc/terms/isPartOf> <http://vocab.getty.edu/tgn/source/9006553> .
+<http://vocab.getty.edu/tgn/source/9006553-term-380519> <http://purl.org/ontology/bibo/locator> "GNIS47028202" .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300008347> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300008347> <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <http://vocab.getty.edu/tgn/7013841> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300008347> <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <http://vocab.getty.edu/ontology#placeTypePreferred> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300008347> <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <http://vocab.getty.edu/aat/300008347> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300008347> <http://www.w3.org/2000/01/rdf-schema#comment> "settled in 1785 when treaty with Cherokee Indians opened region to settlers; site was first established as a frontier outpost" .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300008347> <http://vocab.getty.edu/ontology#displayOrder> "1"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300008347> <http://vocab.getty.edu/ontology#estStart> "1785"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300008389> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300008389> <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <http://vocab.getty.edu/tgn/7013841> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300008389> <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <http://vocab.getty.edu/ontology#placeTypeNonPreferred> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300008389> <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <http://vocab.getty.edu/aat/300008389> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300008389> <http://vocab.getty.edu/ontology#displayOrder> "2"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300008416> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300008416> <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <http://vocab.getty.edu/tgn/7013841> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300008416> <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <http://vocab.getty.edu/ontology#placeTypeNonPreferred> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300008416> <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <http://vocab.getty.edu/aat/300008416> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300008416> <http://vocab.getty.edu/ontology#displayOrder> "3"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300387308> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300387308> <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <http://vocab.getty.edu/tgn/7013841> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300387308> <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <http://vocab.getty.edu/ontology#placeTypeNonPreferred> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300387308> <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <http://vocab.getty.edu/aat/300387308> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300387308> <http://www.w3.org/2000/01/rdf-schema#comment> "for textiles, furniture, plastics, clothing, auto seat belts, temperature controls & chemicals" .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300387308> <http://vocab.getty.edu/ontology#displayOrder> "4"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300387308> <http://vocab.getty.edu/ontology#estStart> "1900"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300387302> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300387302> <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <http://vocab.getty.edu/tgn/7013841> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300387302> <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <http://vocab.getty.edu/ontology#placeTypeNonPreferred> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300387302> <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <http://vocab.getty.edu/aat/300387302> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300387302> <http://www.w3.org/2000/01/rdf-schema#comment> "for mining, quarrying, distribution & lumber" .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300387302> <http://vocab.getty.edu/ontology#displayOrder> "5"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300387302> <http://vocab.getty.edu/ontology#estStart> "1900"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300387277> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300387277> <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <http://vocab.getty.edu/tgn/7013841> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300387277> <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <http://vocab.getty.edu/ontology#placeTypeNonPreferred> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300387277> <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <http://vocab.getty.edu/aat/300387277> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300387277> <http://www.w3.org/2000/01/rdf-schema#comment> "for flour & feed, tobacco & livestock" .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300387277> <http://vocab.getty.edu/ontology#displayOrder> "6"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300387277> <http://vocab.getty.edu/ontology#estStart> "1900"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300387291> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300387291> <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <http://vocab.getty.edu/tgn/7013841> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300387291> <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <http://vocab.getty.edu/ontology#placeTypeNonPreferred> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300387291> <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <http://vocab.getty.edu/aat/300387291> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300387291> <http://www.w3.org/2000/01/rdf-schema#comment> "includes Great Smokey Mountains National Park & Cumberland Mountains" .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300387291> <http://vocab.getty.edu/ontology#displayOrder> "7"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300387291> <http://vocab.getty.edu/ontology#estStart> "1900"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300264742> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300264742> <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <http://vocab.getty.edu/tgn/7013841> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300264742> <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <http://vocab.getty.edu/ontology#placeTypeNonPreferred> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300264742> <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <http://vocab.getty.edu/aat/300264742> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300264742> <http://www.w3.org/2000/01/rdf-schema#comment> "houses University of Tennesee, Knoxville College & Tennessee School for Deaf" .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300264742> <http://vocab.getty.edu/ontology#displayOrder> "8"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300264742> <http://vocab.getty.edu/ontology#estStart> "1794"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300005135> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300005135> <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <http://vocab.getty.edu/tgn/7013841> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300005135> <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <http://vocab.getty.edu/ontology#placeTypeNonPreferred> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300005135> <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <http://vocab.getty.edu/aat/300005135> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300005135> <http://www.w3.org/2000/01/rdf-schema#comment> "noted for historic buildings from Civil War, McClung Historical Collection in Lawson McGhee Library & Sunsphere" .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300005135> <http://vocab.getty.edu/ontology#displayOrder> "9"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300005135> <http://vocab.getty.edu/ontology#estStart> "1790"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300387218> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300387218> <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <http://vocab.getty.edu/tgn/7013841> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300387218> <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <http://vocab.getty.edu/ontology#placeTypeNonPreferred> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300387218> <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <http://vocab.getty.edu/aat/300387218> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300387218> <http://www.w3.org/2000/01/rdf-schema#comment> "of Territory South of River Ohio; of Tennessee state" .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300387218> <http://vocab.getty.edu/ontology#displayOrder> "10"^^<http://www.w3.org/2001/XMLSchema#positiveInteger> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300387218> <http://vocab.getty.edu/ontology#estStart> "1796"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300387218> <http://vocab.getty.edu/ontology#estEnd> "1819"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<http://vocab.getty.edu/tgn/rel/7013841-placeType-300387218> <http://vocab.getty.edu/ontology#historicFlag> <http://vocab.getty.edu/historic/historic> .
+<http://vocab.getty.edu/tgn/7013841-place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+<http://vocab.getty.edu/tgn/7013841-place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> .
+<http://vocab.getty.edu/tgn/7013841-place> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "35.95"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://vocab.getty.edu/tgn/7013841-place> <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-83.9167"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://vocab.getty.edu/tgn/7013841-place> <http://purl.org/dc/terms/license> <http://opendatacommons.org/licenses/by/1.0/> .
+<http://vocab.getty.edu/tgn/7013841-place> <http://creativecommons.org/ns#license> <http://opendatacommons.org/licenses/by/1.0/> .
+<http://vocab.getty.edu/tgn/7013841-place> <http://rdfs.org/ns/void#inDataset> <http://vocab.getty.edu/dataset/tgn> .
+<http://vocab.getty.edu/tgn/7013841-place> <http://schema.org/geo> <http://vocab.getty.edu/tgn/7013841-geometry> .
+<http://vocab.getty.edu/tgn/7013841-geometry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/GeoCoordinates> .
+<http://vocab.getty.edu/tgn/7013841-geometry> <http://schema.org/latitude> "35.95"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://vocab.getty.edu/tgn/7013841-geometry> <http://schema.org/longitude> "-83.9167"^^<http://www.w3.org/2001/XMLSchema#decimal> .
